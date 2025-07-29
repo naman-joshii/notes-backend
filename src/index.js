@@ -28,3 +28,9 @@ app.listen(PORT, () => {
     console.log("email user: ", process.env.EMAIL_USER);
     connectDB();
 });
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+
+
