@@ -3,8 +3,7 @@ import {
     signup, 
     verifyOtpAndCreateUser, 
     requestLoginOtp,         // Replaces 'login'
-    verifyLoginOtp,          // New function for verification
-    googleSignIn,
+    verifyLoginOtp,    
     checkAuth,
     logout
 } from '../controllers/auth.controller.js';
